@@ -1,0 +1,366 @@
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+body {
+    font-family: STXihei, "华文细黑", serif;
+    font-size: small;
+    line-height: 1.6em;
+
+    color: #999;
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    display: table;
+    clear: both;
+
+    content: "";
+}
+
+.wrapper {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 1000px;
+    height: 100%;
+}
+
+/* header */
+#header {
+    height: 120px;
+
+    background-color: #232425;
+}
+
+.header-title {
+    margin-top: 36px;
+}
+
+.header-title h2 {
+    margin-bottom: 5px;
+
+    font-family: serif;
+    font-size: 1.91em;
+}
+
+.header-title span {
+    font-size: 1.2em;
+}
+
+.nav li {
+    float: left;
+
+    padding: 0 20px;
+    height: 120px;
+
+    font-size: 1.2em;
+    line-height: 120px;
+
+    cursor: pointer;
+}
+
+.nav li:hover {
+    color: #fff;
+    background-color: #e2494b;
+}
+
+/* main read */
+.read {
+    height: 470px;
+
+    background-color: #1e1e1e;
+}
+
+.intro {
+    margin-top: 138px;
+    width: 350px;
+
+    font-family: serif;
+}
+
+.intro h1 {
+    margin-right: 55px;
+
+    font-size: 3.83em;
+    line-height: 1.2em;
+}
+
+.intro p {
+    margin-top: 10px;
+
+    font-size: 1.2em;
+}
+
+.more {
+    display: inline-block;
+
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 25px 10px 10px;
+
+    font-size: 1.3em;
+
+    color: #fff;
+    background-color: #e2494b;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 15px;
+}
+
+.intro-img {
+    position: relative;
+
+    margin-left: 405px;
+    height: 100%;
+
+    font-size: 0;
+}
+
+.intro-img img {
+    position: absolute;
+}
+
+.intro-img img:first-of-type {
+    top: 170px;
+    left: 0;
+    z-index: 2;
+}
+
+.intro-img img:nth-last-of-type(2) {
+    top: 40px;
+    left: 57px;
+    z-index: 1;
+}
+
+.intro-img img:last-of-type {
+    right: 0;
+    bottom: 40px;
+    z-index: 2;
+}
+
+/* .main .content */
+.content {
+    margin-top: 50px;
+}
+
+.photos {
+    border-bottom: 1px solid #d5d5d7;
+    height: 402px;
+}
+
+.item {
+    width: 225px;
+
+    text-align: center;
+}
+
+.item + .item {
+    margin-left: 20px;
+}
+
+.content h3 {
+    padding-bottom: 20px;
+
+    font-size: 1.5em;
+    line-height: 1.2em;
+
+    color: #000;
+}
+
+.item h3 {
+    padding: 0 65px 20px 65px;
+}
+
+h3 span {
+    color: #de494f;
+}
+
+.item p {
+    margin-top: 20px;
+}
+
+.content .more {
+    margin-top: 20px;
+
+    background-color: #d54346;
+}
+
+.describe {
+    text-align: left;
+}
+
+.describe > div {
+    width: 470px;
+}
+
+.team img:first-of-type {
+    margin-right: 20px;
+}
+
+.team-info {
+    margin: 50px 0 50px 490px;
+}
+
+.rmore {
+    margin-left: 245px;
+}
+
+.separate {
+    width: 100%;
+    height: 15px;
+
+    background-color: #dadadc;
+}
+
+/* footer */
+.all-us {
+    border-bottom: 1px solid #d8d9da;
+    height: 385px;
+}
+
+.all-us > div {
+    margin-top: 40px;
+    width: 225px;
+}
+
+.all-us > div + div {
+    margin-left: 20px;
+}
+
+.all-us h4 {
+    margin-bottom: 20px;
+
+    font-size: 1.25em;
+}
+
+.about img {
+    margin: 0 0 20px 7px;
+    border: 3px solid #fff;
+}
+
+.all-us .fr {
+    margin-top: 15px;
+
+    color: #d54346;
+}
+
+.quick li {
+    box-sizing: border-box;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 5px 0;
+    width: 100%;
+    height: 27px;
+
+    line-height: 21px;
+}
+
+.quick li:first-of-type {
+    padding-top: 0;
+}
+
+.quick a {
+    display: inline-block;
+
+    margin-left: 5px;
+
+    color: #d54346;
+}
+
+.post h5 {
+    color: #d54346;
+}
+
+.subtitle {
+    margin: 0 0 5px -25px;
+
+    transform: scale(.8);
+}
+
+.post p:last-of-type {
+    margin-left: -10px;
+
+    transform: scale(.9);
+}
+
+.post .fr {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+
+    color: #999;
+    background-color: #1e1e1e;
+
+    outline: none;
+}
+
+input[type="button"] {
+    width: 80px;
+    height: 30px;
+
+    font-weight: bold;
+    line-height: 13px;
+
+    color: #fff;
+    background-color: #d54346;
+}
+
+textarea {
+    height: 70px;
+
+    resize: none;
+}
+
+.copy {
+    border-top: 1px solid #fff;
+    height: 60px;
+
+    line-height: 60px;
+}
